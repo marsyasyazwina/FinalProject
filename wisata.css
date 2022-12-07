@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration: none;
+    font-family: 'satoshi';
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 80%;
+    padding-left: 8%;
+    background-color: #E1CEB5;
+ }
+ nav ul {
+    display: flex;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+ }
+ ul {
+    list-style: none;
+    padding-left: 550px;
+ }
+ 
+ body {
+    margin: 0px;
+    padding: 0px;
+ }
+ nav ul li a{
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+ }
+ .Hume img{
+    margin: 20px;
+    cursor: pointer;
+ }
+ nav a {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+nav a:hover {
+    color: #7895B2;
+    transition: 0.5s;
+}
+#Beranda{
+   display:flex;
+   flex-direction:column;
+   height:90vh;
+   align-items:center;
+   justify-content:center;
+   color: white;
+   background-color: #7895B2;
+   font-size: 45pt;  
+}
+h2{
+   color: #E8DFCA;
+   letter-spacing: 1px;
+   font-size: 35pt;
+   padding-right: 64%;
+}
+h3 {
+   color: #F5EFE6;
+   font-size: 35pt;
+   margin-bottom: 35px;
+   padding-right: 66%;
+   font-family: 'satoshibla';
+}
+h4 {
+   color: #AEBDCA;
+   font-size: 15pt;
+   font-style: medium;
+   text-align: left;
+   padding-right: 49%;
+   padding-bottom: 3%;
+   font-family: 'satoshire';
+}
+.table {
+   color: black;
+   border-collapse: collapse;
+   width: 50%;
+   border: 1px solid black;
+   margin-top: 20px;
+}
+.table tr th {
+   background-color: #E8DFCA;
+   color: black;
+   font-weight: normal;
+}
+#about {
+   width: 100%;
+   height:100vh;
+   padding: 4px ;
+   padding-top: 5%;
+   background-color: #B4CDE6;
+   color: black;
+}
+.about-me {
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: left;
+   justify-content: space-around;
+}
+
+.about-me img {
+   height: 350px;
+   width: 350px;
+   margin-top: 40px;
+
+}
+.About-text {
+   width: 550px;
+   margin-bottom: 30px;
+   padding-top: 15%;
+}
+.About-text h2 {
+   color: black ;
+   font-size: 35px;
+   text-transform: capitalize;
+   margin-bottom: 15px ;
+   border-bottom: 2px solid black;
+}
+.About-text p {
+   color: black;
+   letter-spacing: 1px;
+   line-height: 25px;
+   font-size: 23px;
+   margin-bottom: 45px;
+   text-align: justify;
+   float: right;
+
+}
+footer {
+   height: auto;
+   width: 100vw;
+   font-family: 'Courier New', Courier, monospace;
+   padding-top: 40px;
+   color: black;
+}
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+/* .footer-content h3{
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+   padding-right: 45px;
+} */
+.footer-content p{
+   max-width: 500px;
+   margin: 10px auto;
+   line-height: 28px;
+   font-size: 20px;
+}
+.footer-bottom{
+   background-color: #E1CEB5;
+   width: 100vw;
+   padding: 20px 0;
+   text-align: center;
+}
+.footer-bottom p {
+   font-size: 20px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+}
